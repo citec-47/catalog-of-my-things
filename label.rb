@@ -16,7 +16,6 @@ class Label
     items_hash = @items.map { |item| { name: item.name } }
     { title: @title, items: items_hash }
   end
-  
 
   def self.new_from_hash(hash)
     Label.new(hash['title'])

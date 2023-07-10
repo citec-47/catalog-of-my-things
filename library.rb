@@ -6,7 +6,7 @@ class Library
   end
 
   def run
-    @app.load_data  # Load data from JSON files
+    @app.load_data # Load data from JSON files
 
     loop do
       puts @app.display_options

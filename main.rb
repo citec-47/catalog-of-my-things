@@ -65,7 +65,7 @@ class Main
 end
 
 app = App.new
-app.load_data  # Load data from JSON files
+app.load_data # Load data from JSON files
 
 menu = Main.new(app)
 

@@ -6,7 +6,6 @@ require_relative 'game_author'
 require_relative 'item'
 require_relative 'label'
 require 'json'
-
 class App
   attr_accessor :books, :music_albums, :games, :labels, :genres, :game_authors
 
@@ -23,7 +22,7 @@ class App
     @game_authors = load_items_from_file('game_authors.json', GameAuthor)
     load_labels
   end
-  
+
   def load_labels
     @labels = load_items_from_file('labels.json', Label)
   end
@@ -36,7 +35,6 @@ class App
     save_items_to_file('game_authors.json', @game_authors)
     save_items_to_file('labels.json', @labels)
   end
-  
 
   def load_items_from_file(file_name, item_class)
     if File.exist?(file_name)
@@ -84,10 +82,9 @@ class App
     label = Label.new(label_name)
     @labels << label
     save_items_to_file('labels.json', @labels)
-  
+
     puts 'Label added.'
   end
-  
 
   def add_music_album
     puts 'Enter music album name:'
@@ -225,10 +222,4 @@ class App
     end
     puts 'Labels displayed.'
   end
-  def save_items_to_file(file_name, items)
-    json_data = JSON.pretty_generate(items.map(&:to_hash))
-    File.write(file_name, json_data)
-  end
-  
 end
-
