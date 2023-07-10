@@ -1,0 +1,80 @@
+[
+  {
+    "published_date": "2023-01-5",
+    "name": "Queen Mimba",
+    "genre": "\tpop",
+    "on_spotify": false
+  },
+  {
+    "published_date": "2023-30-4",
+    "name": "Psquare",
+    "genre": "Solow",
+    "on_spotify": true
+  },
+  {
+    "published_date": "2023-09-4",
+    "name": "Faly",
+    "genre": "Lingula",
+    "on_spotify": true
+  },
+  {
+    "published_date": "2023-06-09",
+    "name": "Koc",
+    "genre": "Bikosi",
+    "on_spotify": true
+  },
+  {
+    "published_date": "2023-05-6",
+    "name": "Magasco",
+    "genre": "Komdance",
+    "on_spotify": false
+  },
+  {
+    "published_date": "2030-2-5",
+    "name": "SOUTH AFRICA",
+    "genre": "POP",
+    "on_spotify": true
+  },
+  {
+    "published_date": "2023-7-7",
+    "name": "Take Over",
+    "genre": "Afro",
+    "on_spotify": true
+  },
+  {
+    "published_date": "2040-1-8",
+    "name": "Love",
+    "genre": "west",
+    "on_spotify": true
+  },
+  {
+    "published_date": "2023-8-1",
+    "name": "MC GILBERTO",
+    "genre": "wax",
+    "on_spotify": true
+  },
+  {
+    "published_date": "2023-7-6",
+    "name": "SPARK",
+    "genre": "douala",
+    "on_spotify": true
+  },
+  {
+    "published_date": "2023-1-6",
+    "name": "Mr Leo",
+    "genre": "Afro",
+    "on_spotify": true
+  },
+  {
+    "published_date": "2023-8-7",
+    "name": "Love ME",
+    "genre": "aFRO",
+    "on_spotify": true
+  },
+  {
+    "published_date": "2023-10-5",
+    "name": "Minks",
+    "genre": "solo",
+    "on_spotify": true
+  }
+]
